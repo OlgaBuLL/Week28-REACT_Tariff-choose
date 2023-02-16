@@ -2,7 +2,7 @@
   "name": "tariff",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://OlgaBuLL.github.io/Week27-REACT_Tariff",
+  "homepage": "https://OlgaBuLL.github.io/Week28-REACT_Tariff-choose",
   "dependencies": {
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
