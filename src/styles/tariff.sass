@@ -1,0 +1,62 @@
+$whiteColor: rgb(255, 255, 255)
+$greyColor: rgb(148, 145, 145)
+
+.tariffs-container
+    margin: 2rem auto
+    display: flex
+    justify-content: center
+    align-items: center
+    column-gap: 2rem
+    padding: 3rem 1rem
+    border: 2px dashed rgb(235, 232, 232)
+
+.card
+    max-width: max-content
+    color: $whiteColor
+
+.cardName
+    font-size: larger
+    font-weight: bold
+    padding: 1rem
+.cardPrice
+    display: flex
+    justify-content: center
+    padding: 1rem
+    border-top: 1px solid $whiteColor
+    border-bottom: 1px solid $whiteColor
+
+.cardPrice p:nth-child(1)
+    align-self: flex-start
+.cardPrice p:nth-child(2)
+    font-size: 80px
+    margin: 0
+
+.cardPrice p:nth-child(3)
+    align-self: flex-end
+
+.speed
+    color: $greyColor
+.text
+    background: rgb(235, 232, 232)
+    color: $greyColor
+    padding: 1rem
+    margin: 0
+
+.selected
+    transform: scale(1.1)
+    // border: 2px solid rgb(36, 213, 101)
+    box-shadow: 0 0 20px 8px rgba(0, 0, 0, 55%)
+    // border-radius: 10px
+
+button
+    margin: 2rem auto 1rem
+    padding: 0.8rem 1.8rem
+    // background: rgb(212, 243, 255)
+    background: rgb(235, 232, 232)
+    color: rgb(62, 62, 62)
+    font-weight: bold
+    border: none
+
+.button-selected
+    background: rgb(26, 157, 74)
+    color: rgb(255, 255, 255)
